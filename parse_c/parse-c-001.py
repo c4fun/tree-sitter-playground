@@ -2,8 +2,8 @@ from tree_sitter import Language, Parser
 
 # 注意C++对应cpp，C#对应c_sharp（！这里短横线变成了下划线）
 # 看仓库名称
-CPP_LANGUAGE = Language('build/my-languages.so', 'cpp')
-CS_LANGUAGE = Language('build/my-languages.so', 'c_sharp')
+CPP_LANGUAGE = Language('../build/my-languages.so', 'cpp')
+CS_LANGUAGE = Language('../build/my-languages.so', 'c_sharp')
 
 # 举一个CPP例子
 cpp_parser = Parser()

@@ -67,7 +67,7 @@ def index_to_code_token(index, code):
 
 if __name__ == '__main__':
     # 声明CPP代码解析器
-    CPP_LANGUAGE = Language('build/my-languages.so', 'cpp')
+    CPP_LANGUAGE = Language('../build/my-languages.so', 'cpp')
     cpp_parser = Parser()
     cpp_parser.set_language(CPP_LANGUAGE)
 

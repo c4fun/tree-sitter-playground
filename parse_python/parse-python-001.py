@@ -7,7 +7,7 @@ def traverse(node):
         traverse(child)
 
 # 加载构建的 Python 语言库
-PYTHON_LANGUAGE = Language('build/my-languages.so', 'python')
+PYTHON_LANGUAGE = Language('../build/my-languages.so', 'python')
 
 # 初始化解析器并设置语言
 parser = Parser()
